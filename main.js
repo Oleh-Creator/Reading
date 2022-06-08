@@ -78,7 +78,7 @@ function formTrigger(state) {
     }
 
 }
-function nightTrigger(state){
+function nightMode(state){
     if(state === 1){
         document.body.style.backgroundColor = '#fff';
         area.style.border = '1px solid #333'
